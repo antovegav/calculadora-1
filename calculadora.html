@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JS -->
+    <script src="/assets/js/calculadora.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+
+    <section class="container">
+        <div class="contenedor">
+            <form action="" id="formulario">
+                <fieldset>
+                    <legend>CALCULADORA</legend>
+                        Valor 1: <input type="number" id="valor1" value="0"><br>
+                        Valor 2: <input type="number" id="valor2" value="0"><br>
+                        <input type="button" value="suma" onclick="sumar();">
+                        <input type="number" id="resultadoSuma" value="0"><br>
+                        <input type="button" value="restar" onclick="restar();">
+                        <input type="number" id="resultadoResta" value="0"><br>
+                        <input type="button" value="multiplicar" onclick="multiplicar();">
+                        <input type="number" id="resultadoMultiplicar" value="0"><br>
+                        <input type="button" value="dividir" onclick="dividir();">
+                        <input type="number" id="resultadoDividir" value="0">
+                </fieldset>
+                </form>
+        </div>
+    </section>
+
+</body>
+</html>

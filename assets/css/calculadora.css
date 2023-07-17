@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+.contenedor{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
